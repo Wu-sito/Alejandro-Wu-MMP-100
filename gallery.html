@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #ebebff;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #ffffff;
+            padding: 1rem;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
+            padding: 1rem;
+        }
+        .gallery img {
+            max-width: 300px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .fireworksDiv{
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>My Gallery</h1>
+
+    </header>
+        <a href="index.html">Home</a>
+    <main>
+        <p>Here are some of my assignments and artwork from MMP 100 and beyond:</p>
+        <div class="gallery">
+            <div>
+                <img src="website/selfie.jpg" alt="Selfie">
+                <p>Raster Image</p>
+            </div>
+            <div>
+                <img src="website/V .png" alt="Vector image">
+                <p>Vector Image</p>
+            </div>
+            <div>
+                <img src="website/GIF.GIF" alt="GIF"> 
+                <p>GIF</p>
+            </div>            
+        </div>
+        <div>
+            <audio controls src="Website/Assignment%203%20.wav"></audio>
+            <p>Audio</p>
+        </div>     
+        <div class="videoDiv">
+            <video controls src="Website/Alejandro%20Wu%2010s%20animation.mp4" width="500"></video>
+            <p>Video</p>
+        </div>
+        <script src="Fireworks.js"></script>
+        <p>Fireworks (Click anywhere in the photo below to see fireworks!)</p>
+    </main>
+</body>
+</html>

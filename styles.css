@@ -1,0 +1,42 @@
+.title {
+    color: green;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #fff;
+    color: #000000;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #007BFF;
+}
+nav a {
+    text-decoration: underline;
+    color: white;
+}
+body{
+    background-image: url(Website/2.webp)
+}
+
+main p{
+    margin-top: 400px;
+    width: 20%;
+    margin-right: auto;
+    background-color: white;
+}
+
+footer p{
+    margin-top: 200px;
+    background-color: white;
+    width: 260px;
+    margin-right: auto;
+    margin-left: auto;
+}
